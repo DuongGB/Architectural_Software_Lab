@@ -1,0 +1,3 @@
+State Pattern giúp quản lý trạng thái của đơn hàng một cách linh hoạt, cho phép đơn hàng chuyển từ trạng thái này sang trạng thái khác mà không cần thay đổi mã nguồn.
+Strategy Pattern cho phép thay đổi cách xử lý đơn hàng mà không cần thay đổi mã nguồn của lớp đơn hàng.
+Decorator Pattern cho phép mở rộng chức năng của đơn hàng mà không làm thay đổi cấu trúc của nó, giúp dễ dàng thêm các tính năng mới.

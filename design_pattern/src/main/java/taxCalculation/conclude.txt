@@ -1,0 +1,3 @@
+State Pattern giúp thay đổi trạng thái thuế của sản phẩm một cách linh hoạt.
+Strategy Pattern cho phép thay đổi cách tính thuế mà không cần sửa đổi logic sản phẩm.
+Decorator Pattern giúp mở rộng các loại thuế áp dụng mà không làm thay đổi cấu trúc sản phẩm gốc.
