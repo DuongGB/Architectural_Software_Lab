@@ -12,6 +12,7 @@ package orderManagement.state;
  * @date:   3/11/2025
  * @version:    1.0
  */
+// Lớp OrderContext chứa trạng thái của đơn hàng
 public class OrderContext {
     private State state;
 
