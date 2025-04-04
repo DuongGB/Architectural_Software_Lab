@@ -1,0 +1,8 @@
+# Sử dụng Nginx mới nhất
+FROM nginx:latest
+
+# Copy file HTML vào thư mục mặc định của Nginx
+COPY index.html C:\Users\ADMIN\Desktop\STUDY\HK2_nam4\KienTruc\Labs\Architectural_Software_Lab\Docker\bai4_Nginx\index.html
+
+# Expose cổng 80
+EXPOSE 80
