@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="eureka-server" />
+        <module name="customer-service" />
+        <module name="identity-service" />
       </profile>
       <profile name="Annotation profile for product-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -22,14 +24,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="customer-service" target="17" />
-      <module name="identity-service" target="17" />
+      <module name="customer-service.main" target="17" />
+      <module name="customer-service.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="identity-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
     </option>
