@@ -26,6 +26,7 @@
     <bytecodeTargetLevel>
       <module name="customer-service.main" target="17" />
       <module name="customer-service.test" target="17" />
+      <module name="postgres-db" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -35,6 +36,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="identity-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
+      <module name="postgres-db" options="-parameters" />
       <module name="product-service" options="-parameters" />
     </option>
   </component>

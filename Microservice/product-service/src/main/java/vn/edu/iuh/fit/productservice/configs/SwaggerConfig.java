@@ -35,7 +35,7 @@ public class SwaggerConfig {
     public GroupedOpenApi productApi() {
         return GroupedOpenApi.builder()
                 .group("Product Service")
-                .pathsToMatch("/api/v1/products/**") // Đảm bảo path chính xác
+                .pathsToMatch("/products/**") // Đảm bảo path chính xác
                 .build();
     }
 }
